@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My web page</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lilita+One|Oswald&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand " href="#">Logo web-page</a>
+        <ul class="nav justify-content-end">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#map">Ubicación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#stripe">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="acerca.html">Acerca de</a>
+          </li>
+        </ul>
+      </nav>
+      <div
+        class="cover d-flex justify-content-center align-items-center flex-column"
+      >
+        <h1>Jay's fast food</h1>
+        <p>Here is the best food in the world</p>
+        <button class="btn btn-primary">Conoce más</button>
+      </div>
+    </header>
+    <section>
+      <div class="container mt-5 mb-5">
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3">
+            <div class="card">
+              <div
+                title="Wafle"
+                class="cover cover-sm"
+                style="background-image:url(https://cdn.glitch.com/1539da39-6c79-461a-b792-f1877d630336%2Frsz_wafle.jpg?v=1576145486704)"
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">Wafle red fruits</h5>
+                <p class="card-text">
+                  It's a decilious wafle with red fruits and too much arequipe
+                  and ice cream.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3">
+            <div class="card">
+              <div
+                title="Ice cream"
+                class="cover cover-sm"
+                style="background-image:url(https://cdn.glitch.com/1539da39-6c79-461a-b792-f1877d630336%2Fcereal.jpg?v=1576145389706)"
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">Ice cream</h5>
+                <p class="card-text">
+                  This is a tasty cup ice cream fruits.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3">
+            <div class="card">
+              <div
+                title="Chocolate cake"
+                class="cover cover-sm"
+                style="background-image:url(https://cdn.glitch.com/1539da39-6c79-461a-b792-f1877d630336%2Fcup_of_chocolate.jpg?v=1576145390407)"
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">Chocolate cake</h5>
+                <p class="card-text">
+                  It's a delicous chocolate cake with some strawberries.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container mt-5 mb-5">
+        <div class="row"></div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3">
+          <img
+            src="https://cdn.glitch.com/1539da39-6c79-461a-b792-f1877d630336%2FCoffeeDoddle.svg?v=1576143138112)"
+            alt="Alguien cargando taza de té derramandose"
+          />
+        </div>
+        <div class="col-12 col-sm-6">
+          <h3>Start your day with a delicious cup of tea</h3>
+          <p>Find your closer Jay's restaurant</p>
+          <a href="#map">Go there!</a>
+        </div>
+        <form action="">
+          <label for="email">E-mail</label>
+          <div class="d-flex">
+            <div class="flex-fill mr-1">
+              <input type="email" id="email" class="form-control" />
+            </div>
+            <button type="submit" class="btn btn-primary">
+              Send
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section>
+      <!-- Productos-->
+      <div class="container mt-5 mb-5" id="stripe">
+        <div class="product-stripe">
+          <div class="stripe-container">
+            <div class="card">
+              <div
+                title="Beef dish"
+                class="cover cover-sm"
+                style="background-image:url(https://cdn.glitch.com/1539da39-6c79-461a-b792-f1877d630336%2Fbeef.jpg?v=1576145389338)"
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">Beef dish</h5>
+                <span class="badge badge-info">$10</span>
+              </div>
+            </div>
+            <div class="card">
+              <div
+                title="Ramen"
+                class="cover cover-sm"
+                style="background-image:url(https://cdn.glitch.com/1539da39-6c79-461a-b792-f1877d630336%2Frsz_ramen-menu.jpg?v=1576145388609)"
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">Ramen</h5>
+                <span class="badge badge-info">$9</span>
+              </div>
+            </div>
+            <div class="card">
+              <div
+                title="Burguer"
+                class="cover cover-sm"
+                style="background-image:url(https://cdn.glitch.com/1539da39-6c79-461a-b792-f1877d630336%2Fburger-menu.jpg?v=1576145389832)"
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">Burger</h5>
+                <span class="badge badge-info">$7</span>
+              </div>
+            </div>
+            <div class="card">
+              <div
+                title="Dessert"
+                class="cover cover-sm"
+                style="background-image:url(https://cdn.glitch.com/1539da39-6c79-461a-b792-f1877d630336%2Fdessert-menu.jpg?v=1576145389504)"
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">Dessert</h5>
+                <span class="badge badge-info">$4</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container mt-5 mb-5" id="map">
+        <h4>We are just here</h4>
+        <p>Cl. 145 #91-81 a 91-37, Bogotá, Cundinamarca</p>
+        <div class="responsive-iframe">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.187790373995!2d-74.08803328528046!3d4.737412042657337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f851307b29edb%3A0x837076edd33b2e1d!2sCentro%20Suba!5e0!3m2!1ses-419!2sco!4v1576149889846!5m2!1ses-419!2sco"
+            width="600"
+            height="450"
+            frameborder="0"
+            style="border:0;"
+            allowfullscreen=""
+          ></iframe>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
